@@ -15,7 +15,6 @@ This is a vignette for hello
 
 
 ```{r}
-devtools::load_all()
-hello("Hubert")
+#hello("Hubert")
 ```
 
