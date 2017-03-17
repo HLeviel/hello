@@ -2,12 +2,14 @@ Package: hello
 Title: Hello world
 Version: 0.0.0.9000
 Authors@R: person("Hubert", "Leviel", email = "hubert.leviel@example.com", role = c("aut", "cre"))
-Description: Hello world, a first test package with one function, hello that writes "Hello" followed by the named passed as an argument
+Description: Hello world, a first test package with one function, hello that writes "Hello" followed by the named passed as an argument.
+    This is it.
 Depends: R (>= 3.3.2)
-License: CC03
+License: LGPL
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1

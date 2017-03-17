@@ -1,4 +1,3 @@
 library(testthat)
-library(mypackage)
 
-test_check("mypackage")
+test_check("hello")
