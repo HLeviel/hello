@@ -1,0 +1,21 @@
+---
+title: "Hello"
+author: "Hubert L"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Hello}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is a vignette for hello
+
+## Example
+
+
+```{r}
+devtools::load_all()
+hello("Hubert")
+```
+
